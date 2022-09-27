@@ -1,0 +1,44 @@
+.button {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+
+  .button:disabled {
+    background-color: #bd9016ad;
+    border: 1px solid #bd9016ad;
+  }
+
+  .button:disabled {
+    cursor: not-allowed;
+  }
+
+  .buttonContainerStyle{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: 100%;
+    justify-content: start;
+  }
+
+  
+@media only screen and (max-width: 425px) {
+  .button {
+    width: 100%;
+  }
+} 
